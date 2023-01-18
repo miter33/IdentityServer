@@ -61,7 +61,7 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
             return migrationComplete;
         }
 
-        public static async Task<bool> EnsureDatabasesMigratedAsync<TIdentityDbContext, TConfigurationDbContext, TPersistedGrantDbContext, TLogDbContext, TAuditLogDbContext, TDataProtectionDbContext>(IServiceProvider services)
+        private static async Task<bool> EnsureDatabasesMigratedAsync<TIdentityDbContext, TConfigurationDbContext, TPersistedGrantDbContext, TLogDbContext, TAuditLogDbContext, TDataProtectionDbContext>(IServiceProvider services)
             where TIdentityDbContext : DbContext
             where TPersistedGrantDbContext : DbContext
             where TConfigurationDbContext : DbContext
@@ -112,7 +112,7 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
             return pendingMigrationCount == 0;
         }
 
-        public static async Task<bool> EnsureSeedDataAsync<TIdentityServerDbContext, TUser, TRole>(IServiceProvider serviceProvider)
+        private static async Task<bool> EnsureSeedDataAsync<TIdentityServerDbContext, TUser, TRole>(IServiceProvider serviceProvider)
         where TIdentityServerDbContext : DbContext, IAdminConfigurationDbContext
         where TUser : IdentityUser, new()
         where TRole : IdentityRole, new()
@@ -209,9 +209,9 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
         {
             foreach (var resource in identityServerDataConfiguration.IdentityResources)
             {
-                var exits = await context.IdentityResources.AnyAsync(a => a.Name == resource.Name);
+                var exists = await context.IdentityResources.AnyAsync(a => a.Name == resource.Name);
 
-                if (exits)
+                if (exists)
                 {
                     continue;
                 }
@@ -221,9 +221,9 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
 
             foreach (var apiScope in identityServerDataConfiguration.ApiScopes)
             {
-                var exits = await context.ApiScopes.AnyAsync(a => a.Name == apiScope.Name);
+                var exists = await context.ApiScopes.AnyAsync(a => a.Name == apiScope.Name);
 
-                if (exits)
+                if (exists)
                 {
                     continue;
                 }
@@ -233,9 +233,9 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
 
             foreach (var resource in identityServerDataConfiguration.ApiResources)
             {
-                var exits = await context.ApiResources.AnyAsync(a => a.Name == resource.Name);
+                var exists = await context.ApiResources.AnyAsync(a => a.Name == resource.Name);
 
-                if (exits)
+                if (exists)
                 {
                     continue;
                 }
@@ -251,9 +251,9 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
 
             foreach (var client in identityServerDataConfiguration.Clients)
             {
-                var exits = await context.Clients.AnyAsync(a => a.ClientId == client.ClientId);
+                var exists = await context.Clients.AnyAsync(a => a.ClientId == client.ClientId);
 
-                if (exits)
+                if (exists)
                 {
                     continue;
                 }
@@ -274,11 +274,3 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Helpers
         }
     }
 }
-
-
-
-
-
-
-
-

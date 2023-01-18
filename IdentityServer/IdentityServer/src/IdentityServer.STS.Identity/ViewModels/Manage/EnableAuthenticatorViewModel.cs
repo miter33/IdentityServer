@@ -18,11 +18,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Manage
         public string AuthenticatorUri { get; set; }
     }
 }
-
-
-
-
-
-
-
-

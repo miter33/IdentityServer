@@ -31,10 +31,3 @@ namespace IdentityServer.Admin.Api.Middlewares
         }
     }
 }
-
-
-
-
-
-
-

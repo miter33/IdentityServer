@@ -37,11 +37,3 @@ namespace IdentityServer.Admin.EntityFramework.SqlServer.Migrations.AuditLogging
         }
     }
 }
-
-
-
-
-
-
-
-

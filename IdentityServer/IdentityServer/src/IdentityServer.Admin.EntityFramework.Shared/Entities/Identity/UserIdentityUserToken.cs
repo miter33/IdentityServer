@@ -7,10 +7,3 @@ namespace IdentityServer.Admin.EntityFramework.Shared.Entities.Identity
 
     }
 }
-
-
-
-
-
-
-

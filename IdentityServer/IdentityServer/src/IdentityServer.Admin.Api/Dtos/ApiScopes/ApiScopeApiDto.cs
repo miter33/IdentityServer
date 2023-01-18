@@ -32,10 +32,3 @@ namespace IdentityServer.Admin.Api.Dtos.ApiScopes
         public List<ApiScopePropertyApiDto> ApiScopeProperties { get; set; }
     }
 }
-
-
-
-
-
-
-

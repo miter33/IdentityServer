@@ -19,10 +19,3 @@ namespace IdentityServer.Admin.Api.AuditLogging
         public object Action { get; set; }
     }
 }
-
-
-
-
-
-
-

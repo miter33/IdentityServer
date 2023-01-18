@@ -35,11 +35,3 @@ namespace IdentityServer.Admin.Api.AuditLogging
         public string SubjectIdentifier { get; set; }
     }
 }
-
-
-
-
-
-
-
-

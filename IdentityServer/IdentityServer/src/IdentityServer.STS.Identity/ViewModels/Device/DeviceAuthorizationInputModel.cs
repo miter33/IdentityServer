@@ -13,10 +13,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Device
         public string UserCode { get; set; }
     }
 }
-
-
-
-
-
-
-

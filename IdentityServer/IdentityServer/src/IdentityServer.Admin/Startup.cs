@@ -83,10 +83,3 @@ namespace IdentityServer.Admin
         }
     }
 }
-
-
-
-
-
-
-

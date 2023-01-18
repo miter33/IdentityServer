@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Skoruba.AuditLogging.EntityFramework.DbContexts;
 using Skoruba.AuditLogging.EntityFramework.Entities;
-using System;
 using System.Threading.Tasks;
 
 namespace IdentityServer.Admin.EntityFramework.Shared.DbContexts
@@ -22,11 +21,3 @@ namespace IdentityServer.Admin.EntityFramework.Shared.DbContexts
         public DbSet<AuditLog> AuditLog { get; set; }
     }
 }
-
-
-
-
-
-
-
-

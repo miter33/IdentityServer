@@ -62,10 +62,3 @@ namespace IdentityServer.Admin.Api.Configuration.ApplicationParts
         }
     }
 }
-
-
-
-
-
-
-

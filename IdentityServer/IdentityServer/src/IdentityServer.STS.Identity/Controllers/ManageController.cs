@@ -720,10 +720,3 @@ namespace IdentityServer.STS.Identity.Controllers
         }
     }
 }
-
-
-
-
-
-
-

@@ -16,10 +16,3 @@ namespace IdentityServer.Admin.Api.Dtos.IdentityResources
         public List<IdentityResourceApiDto> IdentityResources { get; set; }
     }
 }
-
-
-
-
-
-
-

@@ -34,11 +34,3 @@ namespace IdentityServer.Admin.EntityFramework.SqlServer.Migrations.Logging
         }
     }
 }
-
-
-
-
-
-
-
-

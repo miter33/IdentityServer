@@ -16,10 +16,3 @@ namespace IdentityServer.Admin.Api.Dtos.PersistedGrants
         public List<PersistedGrantSubjectApiDto> PersistedGrants { get; set; }
     }
 }
-
-
-
-
-
-
-

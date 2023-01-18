@@ -12,10 +12,3 @@ namespace IdentityServer.Admin.Api.Helpers.Localization
         IEnumerable<LocalizedString> GetAllStrings(bool includeParentCultures);
     }
 }
-
-
-
-
-
-
-

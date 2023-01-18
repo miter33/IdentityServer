@@ -13,11 +13,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Account
         public string Email { get; set; }
     }
 }
-
-
-
-
-
-
-
-

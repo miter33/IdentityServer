@@ -19,11 +19,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Account
         public string Code { get; set; }
     }
 }
-
-
-
-
-
-
-
-

@@ -11,11 +11,3 @@
         public bool IsMachineRemembered { get; set; }
     }
 }
-
-
-
-
-
-
-
-

@@ -51,10 +51,3 @@ namespace IdentityServer.Admin.Api.Configuration.Test
         }
     }
 }
-
-
-
-
-
-
-

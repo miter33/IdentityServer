@@ -23,10 +23,3 @@
         public const string CspTrustedDomainsKey = "CspTrustedDomains";
     }
 }
-
-
-
-
-
-
-

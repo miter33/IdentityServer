@@ -11,11 +11,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Account
         public string ReturnUrl { get; set; }
     }
 }
-
-
-
-
-
-
-
-

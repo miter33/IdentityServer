@@ -19,10 +19,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Account
         public string ExternalAuthenticationScheme { get; set; }
     }
 }
-
-
-
-
-
-
-

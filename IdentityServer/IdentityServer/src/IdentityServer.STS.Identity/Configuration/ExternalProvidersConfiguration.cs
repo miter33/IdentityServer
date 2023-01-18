@@ -16,11 +16,3 @@
         public string AzureDomain { get; set; }
     }
 }
-
-
-
-
-
-
-
-

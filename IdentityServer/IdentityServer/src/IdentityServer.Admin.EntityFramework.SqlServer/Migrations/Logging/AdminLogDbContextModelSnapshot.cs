@@ -50,17 +50,9 @@ namespace IdentityServer.Admin.EntityFramework.SqlServer.Migrations.Logging
 
                     b.HasKey("Id");
 
-                    b.ToTable("Log");
+                    b.ToTable("Logs");
                 });
 #pragma warning restore 612, 618
         }
     }
 }
-
-
-
-
-
-
-
-

@@ -16,10 +16,3 @@ namespace IdentityServer.Admin.Api.Dtos.Users
         public int TotalCount { get; set; }
     }
 }
-
-
-
-
-
-
-

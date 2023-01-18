@@ -14,11 +14,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Account
         public string Username { get; set; }
     }
 }
-
-
-
-
-
-
-
-

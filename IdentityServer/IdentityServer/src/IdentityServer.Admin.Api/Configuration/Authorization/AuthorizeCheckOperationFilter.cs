@@ -42,10 +42,3 @@ namespace IdentityServer.Admin.Api.Configuration.Authorization
         }
     }
 }
-
-
-
-
-
-
-

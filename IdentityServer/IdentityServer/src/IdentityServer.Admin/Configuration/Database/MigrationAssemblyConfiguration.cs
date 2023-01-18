@@ -17,10 +17,3 @@ namespace IdentityServer.Admin.Configuration.Database
         }
     }
 }
-
-
-
-
-
-
-

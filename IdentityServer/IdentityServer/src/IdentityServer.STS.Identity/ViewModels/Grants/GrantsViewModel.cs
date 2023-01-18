@@ -27,10 +27,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Grants
         public IEnumerable<string> ApiGrantNames { get; set; }
     }
 }
-
-
-
-
-
-
-

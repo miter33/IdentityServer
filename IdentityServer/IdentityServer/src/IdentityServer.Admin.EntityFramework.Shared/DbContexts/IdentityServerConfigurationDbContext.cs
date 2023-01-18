@@ -46,10 +46,3 @@ namespace IdentityServer.Admin.EntityFramework.Shared.DbContexts
         public DbSet<ApiResourceScope> ApiResourceScopes { get; set; }
     }
 }
-
-
-
-
-
-
-

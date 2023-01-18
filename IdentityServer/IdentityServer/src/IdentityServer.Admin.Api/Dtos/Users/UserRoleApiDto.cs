@@ -7,10 +7,3 @@
         public TKey RoleId { get; set; }
     }
 }
-
-
-
-
-
-
-

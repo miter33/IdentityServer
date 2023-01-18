@@ -11,11 +11,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Manage
         public string Password { get; set; }
     }
 }
-
-
-
-
-
-
-
-

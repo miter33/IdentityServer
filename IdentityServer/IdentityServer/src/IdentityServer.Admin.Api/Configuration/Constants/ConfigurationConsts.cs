@@ -17,10 +17,3 @@
         public const string ResourcesPath = "Resources";
     }
 }
-
-
-
-
-
-
-

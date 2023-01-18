@@ -19,10 +19,3 @@ namespace IdentityServer.STS.Identity.Configuration.ApplicationParts
         }
     }
 }
-
-
-
-
-
-
-

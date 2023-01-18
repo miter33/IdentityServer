@@ -50,11 +50,3 @@ namespace IdentityServer.STS.Identity.ViewModels.Manage
         public string Country { get; set; }
     }
 }
-
-
-
-
-
-
-
-

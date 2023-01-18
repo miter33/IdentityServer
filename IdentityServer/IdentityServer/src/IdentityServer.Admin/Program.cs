@@ -99,7 +99,7 @@ namespace IdentityServer.Admin
             return configurationBuilder.Build();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
+        private static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                  .ConfigureAppConfiguration((hostContext, configApp) =>
                  {
@@ -138,10 +138,3 @@ namespace IdentityServer.Admin
                 });
     }
 }
-
-
-
-
-
-
-

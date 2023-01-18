@@ -23,10 +23,3 @@
         public string[] CorsAllowOrigins { get; set; }
     }
 }
-
-
-
-
-
-
-

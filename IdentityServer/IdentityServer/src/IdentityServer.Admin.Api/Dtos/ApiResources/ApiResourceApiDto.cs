@@ -32,10 +32,3 @@ namespace IdentityServer.Admin.Api.Dtos.ApiResources
         public List<string> Scopes { get; set; }
     }
 }
-
-
-
-
-
-
-

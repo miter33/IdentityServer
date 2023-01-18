@@ -16,10 +16,3 @@ namespace IdentityServer.Admin.Api.Dtos.Clients
         public List<ClientSecretApiDto> ClientSecrets { get; set; }
     }
 }
-
-
-
-
-
-
-

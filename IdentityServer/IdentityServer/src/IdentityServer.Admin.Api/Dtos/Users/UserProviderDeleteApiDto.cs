@@ -9,10 +9,3 @@
         public string LoginProvider { get; set; }
     }
 }
-
-
-
-
-
-
-

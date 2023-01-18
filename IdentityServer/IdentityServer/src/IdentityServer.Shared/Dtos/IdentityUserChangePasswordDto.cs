@@ -7,10 +7,3 @@ namespace IdentityServer.Shared.Dtos
 
     }
 }
-
-
-
-
-
-
-

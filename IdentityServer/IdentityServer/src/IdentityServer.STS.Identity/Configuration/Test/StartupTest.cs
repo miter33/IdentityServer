@@ -18,10 +18,3 @@ namespace IdentityServer.STS.Identity.Configuration.Test
         }
     }
 }
-
-
-
-
-
-
-

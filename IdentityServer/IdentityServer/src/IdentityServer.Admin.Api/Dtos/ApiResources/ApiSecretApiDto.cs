@@ -18,10 +18,3 @@ namespace IdentityServer.Admin.Api.Dtos.ApiResources
         public DateTime? Expiration { get; set; }
     }
 }
-
-
-
-
-
-
-

@@ -16,11 +16,3 @@ namespace IdentityServer.STS.Identity.Configuration
         public static readonly string InvalidSelectionErrorMessage = "Invalid selection";
     }
 }
-
-
-
-
-
-
-
-

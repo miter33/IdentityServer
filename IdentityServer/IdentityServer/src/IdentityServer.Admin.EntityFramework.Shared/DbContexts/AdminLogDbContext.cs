@@ -32,11 +32,3 @@ namespace IdentityServer.Admin.EntityFramework.Shared.DbContexts
         }
     }
 }
-
-
-
-
-
-
-
-

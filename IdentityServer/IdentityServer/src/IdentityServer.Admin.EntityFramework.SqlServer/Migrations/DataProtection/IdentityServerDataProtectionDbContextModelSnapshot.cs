@@ -39,11 +39,3 @@ namespace IdentityServer.Admin.EntityFramework.SqlServer.Migrations.DataProtecti
         }
     }
 }
-
-
-
-
-
-
-
-

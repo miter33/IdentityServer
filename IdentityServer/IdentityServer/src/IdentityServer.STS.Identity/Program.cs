@@ -95,10 +95,3 @@ namespace IdentityServer.STS.Identity
                 });
     }
 }
-
-
-
-
-
-
-

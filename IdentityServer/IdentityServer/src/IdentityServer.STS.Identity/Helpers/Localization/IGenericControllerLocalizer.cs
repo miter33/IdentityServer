@@ -12,10 +12,3 @@ namespace IdentityServer.STS.Identity.Helpers.Localization
         IEnumerable<LocalizedString> GetAllStrings(bool includeParentCultures);
     }
 }
-
-
-
-
-
-
-

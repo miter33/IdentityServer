@@ -70,11 +70,3 @@ namespace IdentityServer.Admin.EntityFramework.SqlServer.Migrations.IdentityServ
         }
     }
 }
-
-
-
-
-
-
-
-

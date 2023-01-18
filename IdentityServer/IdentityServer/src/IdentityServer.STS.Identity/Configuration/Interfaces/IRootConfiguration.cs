@@ -9,10 +9,3 @@ namespace IdentityServer.STS.Identity.Configuration.Interfaces
         RegisterConfiguration RegisterConfiguration { get; }
     }
 }
-
-
-
-
-
-
-

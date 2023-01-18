@@ -57,10 +57,3 @@ namespace IdentityServer.Admin.Api.Helpers.Localization
         }
     }
 }
-
-
-
-
-
-
-

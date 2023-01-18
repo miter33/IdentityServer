@@ -182,10 +182,3 @@ namespace IdentityServer.Admin.Api.Controllers
         }
     }
 }
-
-
-
-
-
-
-

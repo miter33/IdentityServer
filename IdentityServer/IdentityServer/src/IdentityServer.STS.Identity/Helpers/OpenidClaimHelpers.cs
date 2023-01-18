@@ -226,11 +226,3 @@ namespace IdentityServer.STS.Identity.Helpers
         }
     }
 }
-
-
-
-
-
-
-
-

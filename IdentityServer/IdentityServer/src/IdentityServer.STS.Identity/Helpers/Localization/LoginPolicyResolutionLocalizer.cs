@@ -18,11 +18,3 @@ namespace IdentityServer.STS.Identity.Helpers.Localization
         }
     }
 }
-
-
-
-
-
-
-
-

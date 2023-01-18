@@ -17,10 +17,3 @@ namespace IdentityServer.STS.Identity.Services
         }
     }
 }
-
-
-
-
-
-
-
