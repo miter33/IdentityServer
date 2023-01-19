@@ -124,10 +124,10 @@
     <value>Passwort ändern</value>
   </data>
   <data name="Discovery" xml:space="preserve">
-    <value>Discovery-Document</value>
+    <value>Entdeckungsdokument</value>
   </data>
   <data name="Grants" xml:space="preserve">
-    <value>Persisted Grants</value>
+    <value>Dauerhafte Zuschüsse</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
